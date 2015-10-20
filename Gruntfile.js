@@ -47,10 +47,6 @@ module.exports = function (grunt) {
       gruntfile: {
         files: ['Gruntfile.js']
       },
-      sass: {
-        files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['sass', 'postcss']
-      },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'postcss']
@@ -164,25 +160,6 @@ module.exports = function (grunt) {
       }
     },
 
-    // Compiles Sass to CSS and generates necessary files if requested
-    sass: {
-      options: {
-        sourceMap: true,
-        sourceMapEmbed: true,
-        sourceMapContents: true,
-        includePaths: ['.']
-      },
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= config.app %>/styles',
-          src: ['*.{scss,sass}'],
-          dest: '.tmp/styles',
-          ext: '.css'
-        }]
-      }
-    },
-
     postcss: {
       options: {
         map: true,
@@ -209,10 +186,6 @@ module.exports = function (grunt) {
         src: ['<%= config.app %>/index.html'],
         exclude: ['bootstrap.js'],
         ignorePath: /^(\.\.\/)*\.\./
-      },
-      sass: {
-        src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-        ignorePath: /^(\.\.\/)+/
       }
     },
 
@@ -341,10 +314,17 @@ module.exports = function (grunt) {
         }, {
           expand: true,
           dot: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
+          cwd: 'bower_components/bootstrap/dist',
+          src: 'fonts/*',
           dest: '<%= config.dist %>'
         }]
+      },
+      styles: {
+        expand: true,
+        dot: true,
+        cwd: '<%= config.app %>/styles',
+        dest: '.tmp/styles/',
+        src: '{,*/}*.css'
       }
     },
 
@@ -369,14 +349,15 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'babel:dist',
-        'sass'
+        'copy:styles'
       ],
       test: [
-        'babel'
+        'babel',
+        'copy:styles'
       ],
       dist: [
         'babel',
-        'sass',
+        'copy:styles',
         'imagemin',
         'svgmin'
       ]
