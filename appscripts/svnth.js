@@ -1,14 +1,13 @@
 console.log("svnth is up!")
 
 var el = document.getElementById("main"),
-    two = new Two({ 
-        fullscreen: true
-    });
+    two = new Two({width: window.innerWidth, height: window.innerHeight*0.9}).appendTo(el);
  
 two.appendTo(el);
 
 var bg = two.makeRectangle(two.width/2,two.height/2,two.width,two.height);
 bg.fill = "#333333"
+bg.stroke = "none"
 
 //------ code for ANIMATION SIX
 
@@ -66,15 +65,11 @@ var button3 = two.makeRectangle(30,110,30,30); //draw button to trigger second a
 button3.fill = "#cccccc";
 button3.noStroke();
 
-var button4 = two.makeRectangle(30,150,30,30); //draw button to trigger second animation
-button4.fill = "#cccccc";
-button4.noStroke();
-
-var button5 = two.makeRectangle(30,190,30,30); //draw button to trigger second animation
+var button5 = two.makeRectangle(30,150,30,30); //draw button to trigger second animation
 button5.fill = "#cccccc";
 button5.noStroke();
 
-var button6 = two.makeRectangle(30,230,30,30); //draw button to trigger second animation
+var button6 = two.makeRectangle(30,190,30,30); //draw button to trigger second animation
 button6.fill = "#cccccc";
 button6.noStroke();
 
@@ -84,13 +79,11 @@ two.bind('update', function(frameCount) { //visual feedback animation for button
   var button1t = (1 - button1.scale) * 0.2;
   var button2t = (1 - button2.scale) * 0.2;
   var button3t = (1 - button3.scale) * 0.2;
-  var button4t = (1 - button4.scale) * 0.2;
   var button5t = (1 - button5.scale) * 0.2;
   var button6t = (1 - button6.scale) * 0.2;
   button1.scale += button1t;
   button2.scale += button2t;
   button3.scale += button3t;
-  button4.scale += button4t;
   button5.scale += button5t;
   button6.scale += button6t;
 }).play();
@@ -113,12 +106,6 @@ button3._renderer.elem.addEventListener('click', function(){ //on button 3 press
   console.log("animation 3 triggered");
   button3.scale = 0.8;
   anim3();
-});
-
-button4._renderer.elem.addEventListener('click', function(){ //on button 3 press
-  console.log("animation 4 triggered");
-  button4.scale = 0.8;
-  anim4();
 });
 
 button5._renderer.elem.addEventListener('click', function(){ //on button 3 press
@@ -202,17 +189,17 @@ var anim3 = function() {
 
 //------ code for ANIMATION FOUR
 
-var logo = two.interpret(document.querySelector('#logo')).center();
-logo.translation.x = two.width/2;
-logo.translation.y = two.height/2;
-logo.width = 0.8*two.width;
-  two.bind('update', function(frameCount) {
-    logo.scale += (0.8-logo.scale)/10;
-    logo.rotation += (0-logo.rotation)/10;
-  }).play();
-// setInterval(function(){logo.opacity=0.5;},200);
-logo.opacity = 0;
-// setInterval(function(){logo.scale=1; logo.fill = "#"+Math.floor(Math.random()*16777215).toString(16);},575);
+// var logo = two.interpret(document.querySelector('#logo')).center();
+// logo.translation.x = two.width/2;
+// logo.translation.y = two.height/2;
+// logo.width = 0.8*two.width;
+//   two.bind('update', function(frameCount) {
+//     logo.scale += (0.8-logo.scale)/10;
+//     logo.rotation += (0-logo.rotation)/10;
+//   }).play();
+// // setInterval(function(){logo.opacity=0.5;},200);
+// logo.opacity = 0;
+// // setInterval(function(){logo.scale=1; logo.fill = "#"+Math.floor(Math.random()*16777215).toString(16);},575);
 
 var anim4 = function() {
   if (logo.opacity === 0) {
