@@ -28,6 +28,13 @@
     "linkUrl":"http://wekkit.github.io/planetandstars"
   },
   {
+    "name":"This Is WDI7",
+    "description":"This Is WDI7 is a small React project that showcases the students and projects of General Assembly's Web Development Immersive Class 7. It was a project that helped me to learn the basics of React as well as how to navigate and consume Github's public API.",
+    "type":"dev",
+    "imgUrl":"http://i.giphy.com/l4FGv4cUtX9H6ORsQ.gif",
+    "linkUrl":"http://github.com/wekkit/alumni"
+  },
+  {
     "name":"A Night To Remember",
     "description":"A Night To Remember is a choose-your-own-adventure story written as an interactive storytelling experience. You are an amnesiac who wakes up alone in a hospital, and must remember how you got there. As the player, you choose how to remember events that led to you being hospitalized, and must come to your own conclusions.",
     "type":"game",
