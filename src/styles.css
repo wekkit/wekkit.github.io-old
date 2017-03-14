@@ -152,6 +152,11 @@ a.btn.btn-primary:hover {
     margin: 10px 0;
   }
 }
+@media all and (min-width: 1500px) {
+  .panel {
+    width: 27%;
+  }
+}
 
 /*RESUME*/
 
