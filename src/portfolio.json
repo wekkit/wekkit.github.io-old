@@ -10,7 +10,7 @@
     "name":"Wherework",
     "description":"Wherework is an open-source platform for finding and sharing places to sit down and do work - places like coffeeshops, libraries and the like. Users can report if seats or power sockets are available at any given place, contribute wifi passwords, and filter places nearby by availability and amenities available. Wherework was built by a team of four using Ruby on Rails and PostgreSQL, with data provided by the Google Place API.",
     "type":"dev",
-    "imgUrl":"http://i.imgur.com/LNu8GWD.png",
+    "imgUrl":"http://i.imgur.com/Q6ZQzvw.gif",
     "linkUrl":"http://wherework.herokuapp.com"
   },
   {
