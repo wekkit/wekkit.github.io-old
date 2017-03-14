@@ -28,6 +28,13 @@
     "linkUrl":"http://wekkit.github.io/planetandstars"
   },
   {
+    "name":"Space Jam",
+    "description":"Space Jam was an experiment in real-time collaborative apps - The idea was to create rooms with samplers that multiple people could play at once, allowing for real-time live collaborative music-making over the web. Space Jam was also an opportunity to combine several technologies - It was built using React, sockets, sequelize, and several Javascript music libraries.",
+    "type":"dev",
+    "imgUrl":"http://i.giphy.com/26gR1dpmMegX3Ty1y.gif",
+    "linkUrl":"http://spacejamapp.herokuapp.com"
+  },
+  {
     "name":"This Is WDI7",
     "description":"This Is WDI7 is a small React project that showcases the students and projects of General Assembly's Web Development Immersive Class 7. It was a project that helped me to learn the basics of React as well as how to navigate and consume Github's public API.",
     "type":"dev",
