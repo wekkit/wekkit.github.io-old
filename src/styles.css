@@ -11,7 +11,9 @@ body {
 }
 
 h1 {
-  margin: 15px;
+  margin: 60px 15px 20px;
+  padding: 5px;
+  font-size: 64px;
 }
 
 .container {
@@ -159,7 +161,9 @@ a.btn.btn-primary:hover {
 }
 
 /*RESUME*/
-
+.skills.container-fluid {
+  margin-top: 0;
+}
 .skills {
   width: 100%;
   margin: 100px 0;
@@ -187,6 +191,7 @@ a.btn.btn-primary:hover {
   color: #333;
   background-color: white;
   padding: 15px;
+  font-size: 32px;
 }
 .skills-grid {
   width: 100%;

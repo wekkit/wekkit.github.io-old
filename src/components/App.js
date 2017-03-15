@@ -9,6 +9,7 @@ import Nav from './Nav'
 import Contact from './Contact'
 import Portfolio from './portfolio/Portfolio.js'
 import Resume from './resume/Resume.js'
+import CV from './resume/CV.js'
 
 import * as portfolio from '../portfolio.json'
 const portfolioData = portfolio.default
@@ -25,12 +26,15 @@ class App extends Component {
         <About />
         <Nav />
         <Element name='portfolio'>
+          <h1>Portfolio</h1>
           <Portfolio title='Web Development' data={devData}/>
           <Portfolio title='UX Design' data={uxData}/>
           <Portfolio title='Game Design' data={gameData}/>
           <Portfolio title='Video' data={videoData}/>
         </Element>
         <Element name='resume'>
+          <h1>Resume/Skills</h1>
+          <CV />
           <Resume />
         </Element>
         <Element name='contact'>
