@@ -33,7 +33,7 @@ class App extends Component {
           <Portfolio title='Video' data={videoData}/>
         </Element>
         <Element name='resume'>
-          <h1>Resume/Skills</h1>
+          <h1>Resume / Skills</h1>
           <CV />
           <Resume />
         </Element>
