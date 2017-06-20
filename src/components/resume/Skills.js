@@ -28,6 +28,7 @@ class Skills extends Component {
             <Icon icon='devicon-nodejs-plain colored' skill='Node' />
             <Icon icon='devicon-rails-plain colored' skill='Rails' />
             <Icon icon='devicon-react-plain colored' skill='React' />
+            <Icon icon='devicon-angularjs-plain colored' skill='Angular 2' />
             <Icon icon='devicon-postgresql-plain colored' skill='PostgreSQL' />
             <Icon icon='devicon-mongodb-plain colored' skill='MongoDB' />
           </div>
