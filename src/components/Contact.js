@@ -13,7 +13,7 @@ class Contact extends Component {
               <i className="fa fa-facebook" aria-hidden="true"></i><br/>
               Facebook
             </a>
-            <a href='https://twitter.com/thisinnerriot' target='_blank' className='btn btn-contact'>
+            <a href='https://twitter.com/wekkit' target='_blank' className='btn btn-contact'>
               <i className="fa fa-twitter" aria-hidden="true"></i><br/>
               Twitter
             </a>
