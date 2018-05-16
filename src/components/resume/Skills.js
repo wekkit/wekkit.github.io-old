@@ -4,6 +4,7 @@ import xdIcon from '../../assets/icons/xd.svg'
 import aftereffectsIcon from '../../assets/icons/aftereffects.svg'
 import premiereIcon from '../../assets/icons/premiere.svg'
 import abletonIcon from '../../assets/icons/ableton.png'
+import firebaseIcon from '../../assets/icons/firebase.svg'
 
 class Icon extends Component {
   render() {
@@ -24,11 +25,14 @@ class Skills extends Component {
         <div className='col-md-6'>
           <h1>DEVELOPMENT SKILLS</h1>
           <div className='skills-grid'>
-            <Icon icon='devicon-git-plain colored' skill='Git' />
             <Icon icon='devicon-nodejs-plain colored' skill='Node' />
-            <Icon icon='devicon-rails-plain colored' skill='Rails' />
             <Icon icon='devicon-react-plain colored' skill='React' />
-            <Icon icon='devicon-angularjs-plain colored' skill='Angular 2' />
+            <Icon icon='devicon-vuejs-plain colored' skill='Vue' />
+            <Icon icon='devicon-angularjs-plain colored' skill='Angular 4' />
+            <div className='skill-icon'>
+              <img src={firebaseIcon} alt='' />
+              <p>Firebase</p>
+            </div>
             <Icon icon='devicon-postgresql-plain colored' skill='PostgreSQL' />
             <Icon icon='devicon-mongodb-plain colored' skill='MongoDB' />
           </div>
