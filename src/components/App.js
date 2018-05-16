@@ -26,8 +26,8 @@ class App extends Component {
         <About />
         <Nav />
         <Element name='portfolio'>
-          <h1>Portfolio</h1>
-          <Portfolio title='Web Development' data={devData}/>
+          <h1>Personal Portfolio</h1>
+          <Portfolio title='Development' data={devData}/>
           <Portfolio title='UX Design' data={uxData}/>
           <Portfolio title='Game Design' data={gameData}/>
           <Portfolio title='Video' data={videoData}/>
