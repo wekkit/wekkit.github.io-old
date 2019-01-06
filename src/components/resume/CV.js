@@ -5,7 +5,7 @@ class CV extends Component {
   render() {
     return (
       <div>
-        <a href={Cv} target="_blank" className='btn btn-primary'>View my CV</a>
+        <a href={Cv} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>View my CV</a>
       </div>
     )
   }
