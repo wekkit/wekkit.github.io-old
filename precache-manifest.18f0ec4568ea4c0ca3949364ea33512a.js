@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/illustrator.08b4db97.svg"
   },
   {
-    "revision": "8f7cb7df3681ae1d6186",
-    "url": "/static/css/main.754f7cfc.chunk.css"
+    "revision": "27c8339a4a2946d0c9fc",
+    "url": "/static/css/main.2d81a358.chunk.css"
   },
   {
     "revision": "1465b70eee8155a55184",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/bridge.fde2875b.jpg"
   },
   {
-    "revision": "8f7cb7df3681ae1d6186",
-    "url": "/static/js/main.8f7cb7df.chunk.js"
+    "revision": "27c8339a4a2946d0c9fc",
+    "url": "/static/js/main.27c8339a.chunk.js"
   },
   {
     "revision": "419b4fdc5316006f1f7d2d0149042ec8",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/keith_chia_cv.1061c829.pdf"
   },
   {
-    "revision": "142b8c01ce491d0548cac4d78a335d8d",
+    "revision": "cfdf221f34c11ff30dc3044cfa325f1b",
     "url": "/index.html"
   }
 ];

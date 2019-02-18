@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import contactBg from '../assets/bridge.jpg'
+import React, { Component } from 'react';
+import contactBg from '../assets/bridge.jpg';
 
 class Contact extends Component {
   render() {
@@ -9,11 +9,7 @@ class Contact extends Component {
         style={{ backgroundImage: `Url(${contactBg})` }}
       >
         <h1>CONTACT ME!</h1>
-        <h2>
-          email@keithchia.com
-          <br />
-          +65 98374211
-        </h2>
+        <h2>email@keithchia.com</h2>
         <div className="row-contact">
           <a
             href="https://www.facebook.com/profile.php?id=732789218"
@@ -57,8 +53,8 @@ class Contact extends Component {
           </a>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Contact
+export default Contact;
