@@ -1,12 +1,12 @@
-import React from "react"
-import "../styles/styles.css"
-import "../styles/skills-bg.css"
-import "../styles/devicons.min.css"
-import "../styles/fontawesome.min.css"
+import React from 'react'
+import '../styles/global.css'
+import '../styles/skills-bg.css'
+import '../styles/devicons.min.css'
+import '../styles/fontawesome.min.css'
 
-import Hero from "../components/Hero"
-import About from "../components/About"
-import Contact from "../components/Contact"
+import Hero from '../components/Hero'
+import About from '../components/About'
+import Contact from '../components/Contact'
 // import Nav from "../components/Nav"
 // import Portfolio from "../components/portfolio/Portfolio.js"
 // import Resume from "../components/resume/Resume.js"
