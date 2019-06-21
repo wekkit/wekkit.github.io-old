@@ -1,69 +1,66 @@
-import React, { Component } from 'react'
-import illustratorIcon from '../../assets/icons/illustrator.svg'
-import xdIcon from '../../assets/icons/xd.svg'
-import aftereffectsIcon from '../../assets/icons/aftereffects.svg'
-import premiereIcon from '../../assets/icons/premiere.svg'
-import abletonIcon from '../../assets/icons/ableton.png'
-import firebaseIcon from '../../assets/icons/firebase.svg'
+import React, { Component } from "react"
+import illustratorIcon from "../../assets/icons/illustrator.svg"
+import xdIcon from "../../assets/icons/xd.svg"
+import aftereffectsIcon from "../../assets/icons/aftereffects.svg"
+import premiereIcon from "../../assets/icons/premiere.svg"
+import abletonIcon from "../../assets/icons/ableton.png"
+import firebaseIcon from "../../assets/icons/firebase.svg"
+import styles from "./resume.module.css"
 
-class Icon extends Component {
-  render() {
-    return (
-      <div className='skill-icon'>
-        <i className={this.props.icon}></i>
-        <p>{this.props.skill}</p>
-      </div>
-    )
-  }
+function Icon(props) {
+  const { icon, skill } = props
+  return (
+    <div className="skill-icon">
+      <span className={icon}></span>
+      <p>{skill}</p>
+    </div>
+  )
 }
 
 class Skills extends Component {
   render() {
     return (
-      <div className='skills container-fluid' >
-        <div className='row'>
-        <div className='col-md-6'>
+      <div className={`${styles.skills} skills`}>
+        <div>
           <h1>DEVELOPMENT SKILLS</h1>
-          <div className='skills-grid'>
-            <Icon icon='devicon-nodejs-plain colored' skill='Node' />
-            <Icon icon='devicon-react-plain colored' skill='React' />
-            <Icon icon='devicon-vuejs-plain colored' skill='Vue' />
-            <Icon icon='devicon-angularjs-plain colored' skill='Angular 4' />
-            <div className='skill-icon'>
-              <img src={firebaseIcon} alt='' />
+          <div className="skills-grid">
+            <Icon icon="devicons devicons-nodejs" skill="Node" />
+            <Icon icon="devicons devicons-react" skill="React" />
+            <Icon icon="devicons devicons-angular" skill="Angular 4" />
+            <div className="skill-icon">
+              <img src={firebaseIcon} alt="" />
               <p>Firebase</p>
             </div>
-            <Icon icon='devicon-postgresql-plain colored' skill='PostgreSQL' />
-            <Icon icon='devicon-mongodb-plain colored' skill='MongoDB' />
+            <Icon icon="devicons devicons-postgresql" skill="PostgreSQL" />
+            <Icon icon="devicons devicons-mongodb" skill="MongoDB" />
           </div>
         </div>
-        <div className='col-md-6'>
+        <div>
           <h1>DESIGN SKILLS</h1>
-          <div className='skills-grid'>
-            <div className='skill-icon'>
-              <img src={illustratorIcon} alt='' />
+          <div className="skills-grid">
+            <div className="skill-icon">
+              <img src={illustratorIcon} alt="" />
               <p>Illustrator</p>
             </div>
-            <div className='skill-icon'>
-              <img src={xdIcon} alt='' />
+            <div className="skill-icon">
+              <img src={xdIcon} alt="" />
               <p>XD</p>
             </div>
-            <Icon icon='devicon-bootstrap-plain colored' skill='Bootstrap' />
-            <Icon icon='devicon-sass-plain colored' skill='Sass' />
-            <div className='skill-icon'>
-              <img src={aftereffectsIcon} alt='' />
+            <Icon icon="devicons devicons-bootstrap" skill="Bootstrap" />
+            <Icon icon="devicons devicons-sass" skill="Sass" />
+            <div className="skill-icon">
+              <img src={aftereffectsIcon} alt="" />
               <p>After Effects</p>
             </div>
-            <div className='skill-icon'>
-              <img src={premiereIcon} alt='' />
+            <div className="skill-icon">
+              <img src={premiereIcon} alt="" />
               <p>Premiere</p>
             </div>
-            <div className='skill-icon'>
-              <img src={abletonIcon} alt='' />
+            <div className="skill-icon">
+              <img src={abletonIcon} alt="" />
               <p>Ableton Live</p>
             </div>
           </div>
-        </div>
         </div>
       </div>
     )

@@ -1,0 +1,10 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+
+@media all and (max-width: 576px) {
+  .skills {
+    flex-direction: column;
+  }
+}
