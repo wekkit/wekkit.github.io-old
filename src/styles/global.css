@@ -253,7 +253,7 @@ a.btn.btn-primary:hover {
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 0;
+  background-position: 60% 0;
 }
 @media all and (max-width: 576px) {
   .contact {
