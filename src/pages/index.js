@@ -4,6 +4,8 @@ import '../styles/skills-bg.css'
 import '../styles/devicons.min.css'
 import '../styles/fontawesome.min.css'
 
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Contact from '../components/Contact'
@@ -24,6 +26,9 @@ export default function App() {
     <>
       <Hero />
       <About />
+      <AniLink paintDrip to="/blog">
+        To Blog
+      </AniLink>
       {/* <Nav />
       <Element name="portfolio">
         <h1>Personal Portfolio</h1>

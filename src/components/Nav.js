@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "react-scroll"
-import styles from "./nav.module.css"
+import React from 'react'
+import { Link } from 'react-scroll'
+import styles from '../styles/nav.module.css'
 
 export default function Nav() {
   return (
