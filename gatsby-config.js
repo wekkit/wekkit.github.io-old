@@ -5,7 +5,15 @@
  */
 module.exports = {
   plugins: [
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          posts: require.resolve('./src/components/PostLayout.js'),
+          default: require.resolve('./src/components/PostLayout.js')
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
