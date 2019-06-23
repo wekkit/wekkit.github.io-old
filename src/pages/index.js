@@ -26,8 +26,12 @@ export default function App() {
     <>
       <Hero />
       <About />
-      <AniLink paintDrip to="/blog">
-        To Blog
+
+      <AniLink className="btn" fade to="/blog">
+        To Blog{' '}
+        <span role="img" aria-label="To blog">
+          ▶️
+        </span>
       </AniLink>
       {/* <Nav />
       <Element name="portfolio">

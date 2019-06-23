@@ -36,10 +36,24 @@ h1 {
   background-color: #2ecc71;
 }
 
+.btn {
+  text-decoration: none;
+  border: 1px solid #333;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+.btn:hover {
+  background-color: #333;
+  color: white;
+}
+
 /*HEADER*/
 .header {
-  width: 100vw;
   height: 70vh;
+  text-transform: uppercase;
 }
 
 .bgWrapper-open {
@@ -95,13 +109,6 @@ p {
 }
 
 /*NAV*/
-.btn {
-  margin: 10px auto;
-  border-radius: 12px;
-  padding: 15px;
-  width: 150px;
-  cursor: pointer;
-}
 a.btn.btn-primary {
   background-color: white;
   border: 1px solid #333;
@@ -234,11 +241,11 @@ a.btn.btn-primary:hover {
 /*CONTACT*/
 .row-contact {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .contact {
@@ -258,6 +265,10 @@ a.btn.btn-primary:hover {
 @media all and (max-width: 576px) {
   .contact {
     min-height: 800px;
+  }
+  .row-contact {
+    flex-direction: column;
+    align-items: center;
   }
 }
 .contact h1 {
@@ -280,6 +291,8 @@ a.btn.btn-primary:hover {
 }
 a.btn.btn-contact {
   border: none;
+  margin: 10px;
+  width: 100px;
   background-color: rgba(255, 255, 255, 0.9);
   transition: all 0.3s ease;
   color: #333;

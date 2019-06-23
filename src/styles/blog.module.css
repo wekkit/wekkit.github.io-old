@@ -1,4 +1,40 @@
+.blog {
+  display: flex;
+  flex-direction: row;
+}
+.blog h1 {
+  font-size: 2rem;
+}
+
 .blog ul {
   padding: 0;
   list-style: none;
+}
+
+.on {
+  opacity: 1;
+  top: 0;
+}
+
+.off {
+  opacity: 0;
+  top: 100px;
+}
+
+.post {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.homelink {
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+@media all and (max-width: 576px) {
+  .blog {
+    flex-direction: column;
+  }
 }

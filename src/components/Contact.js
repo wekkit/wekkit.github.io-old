@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import contactBg from "../assets/bridge.jpg"
+import React, { Component } from 'react'
+import contactBg from '../assets/bridge.jpg'
 
 class Contact extends Component {
   render() {
