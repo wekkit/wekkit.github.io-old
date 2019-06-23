@@ -12,7 +12,13 @@ function transformAbsPath(path) {
 }
 
 export default function Blog({ data: { allMdx } }) {
-  const [isMobile, useIsMobile] = useState(window.innerWidth < 576)
+  let mobileInit
+  try {
+    mobileInit = window.innerWidth < 576
+  } catch (e) {
+    mobileInit = true
+  }
+  const [isMobile, useIsMobile] = useState(mobileInit)
 
   const { totalCount } = allMdx
 
