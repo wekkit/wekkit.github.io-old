@@ -1,105 +1,98 @@
 [
   {
-    "name":"Cue",
-    "description":"CUE is full-stack web app for collaborative creating and sharing playlists with friends. You can add tracks from Spotify to other people's playlists, discuss/comment and upvote/downvote tracks. CUE was built with Node, Express and MongoDB, and draws track data from the Spotify API.",
-    "type":"dev",
-    "imgUrl":"http://i.giphy.com/3og0ICxhtAmYucFArK.gif",
-    "linkUrl":"http://cueup.herokuapp.com"
+    "name": "Cue",
+    "description": "CUE is full-stack web app for collaborative creating and sharing playlists with friends. You can add tracks from Spotify to other people's playlists, discuss/comment and upvote/downvote tracks. CUE was built with Node, Express and MongoDB, and draws track data from the Spotify API.",
+    "type": "dev",
+    "imgUrl": "http://i.giphy.com/3og0ICxhtAmYucFArK.gif",
+    "linkUrl": "http://cueup.herokuapp.com"
   },
   {
-    "name":"Wherework",
-    "description":"Wherework is an open-source platform for finding and sharing places to sit down and do work - places like coffeeshops, libraries and the like. Users can report if seats or power sockets are available at any given place, contribute wifi passwords, and filter places nearby by availability and amenities available. Wherework was built by a team of four using Ruby on Rails and PostgreSQL, with data provided by the Google Place API.",
-    "type":"dev",
-    "imgUrl":"http://i.imgur.com/Q6ZQzvw.gif",
-    "linkUrl":"http://wherework.herokuapp.com"
+    "name": "Wherework",
+    "description": "Wherework is an open-source platform for finding and sharing places to sit down and do work - places like coffeeshops, libraries and the like. Users can report if seats or power sockets are available at any given place, contribute wifi passwords, and filter places nearby by availability and amenities available. Wherework was built by a team of four using Ruby on Rails and PostgreSQL, with data provided by the Google Place API.",
+    "type": "dev",
+    "imgUrl": "http://i.imgur.com/Q6ZQzvw.gif",
+    "linkUrl": "http://wherework.herokuapp.com"
   },
   {
-    "name":"SMIC3k",
-    "description":"Space Missile Invader Command 3000 (or SMIC3k) is an an asymmetric 2-player game built in Javascript with the Phaser game library. One player uses the mouse to shoot while the other player tries to survive using the arrow keys. Inspiration was drawn from several retro arcade games such as Space Invaders, Missile Command, and Tetris.",
-    "type":"dev",
-    "imgUrl":"http://i.giphy.com/3o6YgjqNoCkatTgSKQ.gif",
-    "linkUrl":"http://wekkit.github.io/smic3k"
+    "name": "SMIC3k",
+    "description": "Space Missile Invader Command 3000 (or SMIC3k) is an an asymmetric 2-player game built in Javascript with the Phaser game library. One player uses the mouse to shoot while the other player tries to survive using the arrow keys. Inspiration was drawn from several retro arcade games such as Space Invaders, Missile Command, and Tetris.",
+    "type": "dev",
+    "imgUrl": "https://media.giphy.com/media/Isr0cKDWpp8yVNs6Qo/giphy.gif",
+    "linkUrl": "http://wekkit.github.io/smic3k"
   },
   {
-    "name":"Planet & Stars",
-    "description":"Planet & Stars was a creative coding project using the three.js rendering engine to create three-dimensional objects using Javascript in the browser. A mobile-only project, it made use of the mobile phone's accelerometer in order to rotate the planet, while tapping on it transformed it into a star field.",
-    "type":"dev",
-    "imgUrl":"http://i.giphy.com/xUA7bi5kgPPQn8FoUU.gif",
-    "linkUrl":"http://wekkit.github.io/planetandstars"
+    "name": "Planet & Stars",
+    "description": "Planet & Stars was a creative coding project using the three.js rendering engine to create three-dimensional objects using Javascript in the browser. A mobile-only project, it made use of the mobile phone's accelerometer in order to rotate the planet, while tapping on it transformed it into a star field.",
+    "type": "dev",
+    "imgUrl": "https://media.giphy.com/media/j8uEZ409K8D43SK8Bf/giphy.gif",
+    "linkUrl": "http://wekkit.github.io/planetandstars"
   },
   {
-    "name":"Space Jam",
-    "description":"Space Jam was an experiment in real-time collaborative apps - The idea was to create rooms with samplers that multiple people could play at once, allowing for real-time live collaborative music-making over the web. Space Jam was also an opportunity to combine several technologies - It was built using React, sockets, sequelize, and several Javascript music libraries.",
-    "type":"dev",
-    "imgUrl":"http://i.giphy.com/26gR1dpmMegX3Ty1y.gif",
-    "linkUrl":"http://spacejamapp.herokuapp.com"
+    "name": "Space Jam",
+    "description": "Space Jam was an experiment in real-time collaborative apps - The idea was to create rooms with samplers that multiple people could play at once, allowing for real-time live collaborative music-making over the web. Space Jam was also an opportunity to combine several technologies - It was built using React, sockets, sequelize, and several Javascript music libraries.",
+    "type": "dev",
+    "imgUrl": "https://media.giphy.com/media/mhEURKg2MKE4cNigVo/giphy.gif",
+    "linkUrl": "http://spacejamapp.herokuapp.com"
   },
   {
-    "name":"This Is WDI7",
-    "description":"This Is WDI7 is a small React project that showcases the students and projects of General Assembly's Web Development Immersive Class 7. It was a project that helped me to learn the basics of React as well as how to navigate and consume Github's public API.",
-    "type":"dev",
-    "imgUrl":"http://i.giphy.com/l4FGv4cUtX9H6ORsQ.gif",
-    "linkUrl":"http://github.com/wekkit/alumni"
+    "name": "A Night To Remember",
+    "description": "A Night To Remember is a choose-your-own-adventure story written as an interactive storytelling experience. You are an amnesiac who wakes up alone in a hospital, and must remember how you got there. As the player, you choose how to remember events that led to you being hospitalized, and must come to your own conclusions.",
+    "type": "game",
+    "imgUrl": "http://i.imgur.com/vZc4HGj.png",
+    "linkUrl": "http://www.narrativeandplay.org/hypedyn/gallery/night-to-remember/index.html"
   },
   {
-    "name":"A Night To Remember",
-    "description":"A Night To Remember is a choose-your-own-adventure story written as an interactive storytelling experience. You are an amnesiac who wakes up alone in a hospital, and must remember how you got there. As the player, you choose how to remember events that led to you being hospitalized, and must come to your own conclusions.",
-    "type":"game",
-    "imgUrl":"http://i.imgur.com/vZc4HGj.png",
-    "linkUrl":"http://www.narrativeandplay.org/hypedyn/gallery/night-to-remember/index.html"
+    "name": "Campester",
+    "description": "Campester is a turn-based board game for 2 players that was a project for a Playable Art course, based on the historical topography of the Flat Earth. Players take on the roles of explorers travelling the Flat Earth in search of historical artifacts, using strategy to get the most valuable artifacts before the other player. Campester was developed and created by a group of 4, in which I was the principal game designer on the team.",
+    "type": "game",
+    "imgUrl": "http://i.imgur.com/KqECK3N.jpg"
   },
   {
-    "name":"Campester",
-    "description":"Campester is a turn-based board game for 2 players that was a project for a Playable Art course, based on the historical topography of the Flat Earth. Players take on the roles of explorers travelling the Flat Earth in search of historical artifacts, using strategy to get the most valuable artifacts before the other player. Campester was developed and created by a group of 4, in which I was the principal game designer on the team.",
-    "type":"game",
-    "imgUrl":"http://i.imgur.com/KqECK3N.jpg"
+    "name": "The Quiet World",
+    "description": "The Quiet World is a visual novel based on the poem of the same name by Jeffrey McDaniel, in which the government has limited all people to 167 words per day. Readers choose their responses to different situations as they go about their day, balancing their words and responses carefully. This project was ideated, written and developed by a team of 4, in which I was the programmer of the game. The Quiet World was developed using HTML, CSS and Javascript.",
+    "type": "game",
+    "imgUrl": "http://i.imgur.com/bZhpNGA.gif",
+    "linkUrl": "http://wekkit.github.io/thequietworld"
   },
   {
-    "name":"The Quiet World",
-    "description":"The Quiet World is a visual novel based on the poem of the same name by Jeffrey McDaniel, in which the government has limited all people to 167 words per day. Readers choose their responses to different situations as they go about their day, balancing their words and responses carefully. This project was ideated, written and developed by a team of 4, in which I was the programmer of the game. The Quiet World was developed using HTML, CSS and Javascript.",
-    "type":"game",
-    "imgUrl":"http://i.imgur.com/bZhpNGA.gif",
-    "linkUrl":"http://wekkit.github.io/thequietworld"
-  },
-  {
-    "name":"RetSKU",
-    "description":"RetSKU is a data aggregation and analytics platform for brands. I was a UX intern there for 12 months, working with a remote development team to design and implement dashboards that could effectively package and present relevant data to users. During my time at RetSKU, I learned how to effectively segment and prioritize multi-dimensional data and present it an application that users could easily navigate to find the relevant data in order to get insights to make effective business decisions.",
-    "type":"ux",
-    "imgUrl":"http://i.imgur.com/y2sfQVK.png",
+    "name": "RetSKU",
+    "description": "RetSKU is a data aggregation and analytics platform for brands. I was a UX intern there for 12 months, working with a remote development team to design and implement dashboards that could effectively package and present relevant data to users. During my time at RetSKU, I learned how to effectively segment and prioritize multi-dimensional data and present it an application that users could easily navigate to find the relevant data in order to get insights to make effective business decisions.",
+    "type": "ux",
+    "imgUrl": "http://i.imgur.com/y2sfQVK.png",
     "linkUrl": "http://retsku.com/"
   },
   {
-    "name":"Sonigram",
-    "description":"Sonigram was a product of Sonoport - a web-based social media app for matching animated gifs with sound effects. I was an intern at Sonoport for a period of 3 months, during which I conducted user interviews, parsed data from application testing videos, and developed user flows, mockups and prototypes for further implementations of the application. During my time at Sonoport, I learned how to use new tools for UX design and research such as usertesting.com and Adobe XD, as well as soft skills for research such as how to conduct effective user interviews and make insights from user data.",
-    "type":"ux",
-    "imgUrl":"http://i.imgur.com/QUaR4LZ.png",
+    "name": "Sonigram",
+    "description": "Sonigram was a product of Sonoport - a web-based social media app for matching animated gifs with sound effects. I was an intern at Sonoport for a period of 3 months, during which I conducted user interviews, parsed data from application testing videos, and developed user flows, mockups and prototypes for further implementations of the application. During my time at Sonoport, I learned how to use new tools for UX design and research such as usertesting.com and Adobe XD, as well as soft skills for research such as how to conduct effective user interviews and make insights from user data.",
+    "type": "ux",
+    "imgUrl": "http://i.imgur.com/QUaR4LZ.png",
     "linkUrl": "http://sonoport.com/"
   },
   {
-    "name":"Synthery",
-    "description":"Synthery was a web app for musicians that created visuals based on MIDI inputs during live performances, in order to easily create visuals for performances that built on musicians' existing acts. Developed by a team of 4, I was one of the designers on the team that developed the visuals using three.js in Javascript and helped to design the user experience of assigning visuals to inputs from MIDI instruments.",
-    "type":"ux",
-    "imgUrl":"http://i.giphy.com/l1KVaMqfKC9EhDyGQ.gif"
+    "name": "Synthery",
+    "description": "Synthery was a web app for musicians that created visuals based on MIDI inputs during live performances, in order to easily create visuals for performances that built on musicians' existing acts. Developed by a team of 4, I was one of the designers on the team that developed the visuals using three.js in Javascript and helped to design the user experience of assigning visuals to inputs from MIDI instruments.",
+    "type": "ux",
+    "imgUrl": "http://i.giphy.com/l1KVaMqfKC9EhDyGQ.gif"
   },
   {
-    "name":"1200",
-    "description":"1200 is a short film about a lonely boy who finds a magic watch that transports him to an alternate dimension when he sleeps. Written, filmed and produced by a team of 5, I was the sound designer as well as one of the editors on the project.",
-    "type":"video",
-    "imgUrl":"http://i.giphy.com/xUA7b9z2VgTenANNmg.gif",
-    "linkUrl":"https://www.youtube.com/watch?v=LpyF1tGstKA"
+    "name": "1200",
+    "description": "1200 is a short film about a lonely boy who finds a magic watch that transports him to an alternate dimension when he sleeps. Written, filmed and produced by a team of 5, I was the sound designer as well as one of the editors on the project.",
+    "type": "video",
+    "imgUrl": "http://i.giphy.com/xUA7b9z2VgTenANNmg.gif",
+    "linkUrl": "https://www.youtube.com/watch?v=LpyF1tGstKA"
   },
   {
-    "name":"I Have A Willing Heart",
-    "description":"I Have A Willing Heart is a short documentary about the Willings Hearts soup kitchen and its founder, Mr Tony Tay, which delivers around 5000 meals to the homeless in Singapore every day. This project was written, filmed and produced by a team of 5, in which I was the director of the film.",
-    "type":"video",
-    "imgUrl":"http://i.giphy.com/3og0IxGZFpgzbLzn5S.gif",
-    "linkUrl":"https://www.youtube.com/watch?v=eML6c8MpuHY"
+    "name": "I Have A Willing Heart",
+    "description": "I Have A Willing Heart is a short documentary about the Willings Hearts soup kitchen and its founder, Mr Tony Tay, which delivers around 5000 meals to the homeless in Singapore every day. This project was written, filmed and produced by a team of 5, in which I was the director of the film.",
+    "type": "video",
+    "imgUrl": "http://i.giphy.com/3og0IxGZFpgzbLzn5S.gif",
+    "linkUrl": "https://www.youtube.com/watch?v=eML6c8MpuHY"
   },
   {
-    "name":"Grocery Hero",
-    "description":"Grocery Hero was a UX design project - a conceptual VR experience that teaches players good shopping habits to prevent food wastage. For this project, the team and I had to apply fundamental UX and usability concepts to a new platform, implementing solutions such as effective onboarding and intuitive usability for a non-tech-savvy target audience. The final concept deliverable for the project was filmed and edited in Adobe After Effects and Adobe Premiere.",
-    "type":"ux",
-    "imgUrl":"http://i.giphy.com/l0Iy9rpn5IlcK36mc.gif",
-    "linkUrl":"https://www.youtube.com/watch?v=gnHdfWm14Nc"
+    "name": "Grocery Hero",
+    "description": "Grocery Hero was a UX design project - a conceptual VR experience that teaches players good shopping habits to prevent food wastage. For this project, the team and I had to apply fundamental UX and usability concepts to a new platform, implementing solutions such as effective onboarding and intuitive usability for a non-tech-savvy target audience. The final concept deliverable for the project was filmed and edited in Adobe After Effects and Adobe Premiere.",
+    "type": "ux",
+    "imgUrl": "http://i.giphy.com/l0Iy9rpn5IlcK36mc.gif",
+    "linkUrl": "https://www.youtube.com/watch?v=gnHdfWm14Nc"
   }
 ]

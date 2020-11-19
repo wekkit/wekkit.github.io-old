@@ -1,5 +1,11 @@
-import React, { Component } from 'react';
-import contactBg from '../assets/bridge.jpg';
+import React, { Component } from "react";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import contactBg from "../assets/bridge.jpg";
 
 class Contact extends Component {
   render() {
@@ -12,22 +18,16 @@ class Contact extends Component {
         <h2>email@keithchia.com</h2>
         <div className="row-contact">
           <a
-            href="https://www.facebook.com/profile.php?id=732789218"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-contact"
-          >
-            <i className="fa fa-facebook" aria-hidden="true" />
-            <br />
-            Facebook
-          </a>
-          <a
             href="https://twitter.com/wekkit"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-contact"
           >
-            <i className="fa fa-twitter" aria-hidden="true" />
+            <FontAwesomeIcon
+              style={{ paddingBottom: 5 }}
+              size="3x"
+              icon={faTwitter}
+            />
             <br />
             Twitter
           </a>
@@ -37,7 +37,11 @@ class Contact extends Component {
             rel="noopener noreferrer"
             className="btn btn-contact"
           >
-            <i className="fa fa-linkedin" aria-hidden="true" />
+            <FontAwesomeIcon
+              style={{ paddingBottom: 5 }}
+              size="3x"
+              icon={faLinkedin}
+            />
             <br />
             LinkedIn
           </a>
@@ -47,7 +51,11 @@ class Contact extends Component {
             rel="noopener noreferrer"
             className="btn btn-contact"
           >
-            <i className="fa fa-github" aria-hidden="true" />
+            <FontAwesomeIcon
+              style={{ paddingBottom: 5 }}
+              size="3x"
+              icon={faGithub}
+            />
             <br />
             Github
           </a>
