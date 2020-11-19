@@ -36,6 +36,7 @@ h1 {
 .header {
   width: 100vw;
   height: 80vh;
+  animation: opacity 2s;
 }
 
 .bgWrapper {
@@ -47,6 +48,27 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0;
+  animation: hero 1s;
+}
+
+@keyframes hero {
+  0% {
+    clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+    opacity: 0;
+  }
+  100% {
+    clip-path: polygon(0 12%, 100% 0, 100% 80%, 0 100%);
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .header h1 {
