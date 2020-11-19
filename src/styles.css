@@ -181,6 +181,9 @@ a.btn.btn-primary:hover {
     width: 100%;
     margin: 10px 0;
   }
+  .panel-content:hover {
+    opacity: 0;
+  }
   .mobile-panel {
     display: block;
   }
